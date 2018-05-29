@@ -331,14 +331,14 @@
 #define AP_TRANSLATE_NAME_ENTRY_ENABLED() (0)
 #define AP_TRANSLATE_NAME_RETURN(arg0)
 #define AP_TRANSLATE_NAME_RETURN_ENABLED() (0)
-#define AP_TYPE_CHECKER_DISPATCH_COMPLETE(arg0, arg1)
-#define AP_TYPE_CHECKER_DISPATCH_COMPLETE_ENABLED() (0)
-#define AP_TYPE_CHECKER_DISPATCH_INVOKE(arg0)
-#define AP_TYPE_CHECKER_DISPATCH_INVOKE_ENABLED() (0)
-#define AP_TYPE_CHECKER_ENTRY()
-#define AP_TYPE_CHECKER_ENTRY_ENABLED() (0)
-#define AP_TYPE_CHECKER_RETURN(arg0)
-#define AP_TYPE_CHECKER_RETURN_ENABLED() (0)
+#define AP_TYPE_CHECKER_DISPATCH_COMPLETE(arg0, arg1) :white_check_mark:
+#define AP_TYPE_CHECKER_DISPATCH_COMPLETE_ENABLED() (0) :white_check_mark:
+#define AP_TYPE_CHECKER_DISPATCH_INVOKE(arg0) :white_check_mark:
+#define AP_TYPE_CHECKER_DISPATCH_INVOKE_ENABLED() (0) :white_check_mark:
+#define AP_TYPE_CHECKER_ENTRY() :white_check_mark:
+#define AP_TYPE_CHECKER_ENTRY_ENABLED() (0) :white_checj_mark:
+#define AP_TYPE_CHECKER_RETURN(arg0) :white_check_mark:
+#define AP_TYPE_CHECKER_RETURN_ENABLED() (0) :white_check_mark:
 
 #endif
 
